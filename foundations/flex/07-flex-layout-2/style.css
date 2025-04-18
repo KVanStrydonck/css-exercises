@@ -26,4 +26,60 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  width: 300px;
+  padding: 0.5em;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  padding: 48px;
+  gap: 32px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar {
+  padding: 1em;
+  min-width: 300px;
+  flex-shrink: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
